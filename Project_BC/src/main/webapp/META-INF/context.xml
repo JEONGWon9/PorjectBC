@@ -19,6 +19,8 @@ url 속성 :JDBC 접속에 필요한 URL 정보 지정
            
 username속성 : DB 접속 계정명
 password 속성 : DB 접속 패스워드
+
+Project_BC
  -->
  
      <Resource 
@@ -26,7 +28,7 @@ password 속성 : DB 접속 패스워드
       auth="Container"
       type="javax.sql.DataSource"
       driverClassName="com.mysql.jdbc.Driver"
-      url="jdbc:mysql://localhost:8080/jsp_db7"
+      url="jdbc:mysql://localhost:8080/BC_DB"
       username="root"
       password="1234"
    />
